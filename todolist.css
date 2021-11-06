@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(17, 13, 13);
+}
+
+.todolist__container {
+    width: 500px;
+    border: 1px solid #6d6c6c;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 31%;
+    overflow: hidden;
+}
+
+.todolist__header {
+    padding: 1px;
+    color: blanchedalmond;
+    background-color: #bbb95b;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.todolist__header h1 {
+    font-size: 22px;
+}
+
+.todolist__content {
+    padding: 35px;
+}
+
+.input__group {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.input__add {
+    padding: 3px;
+    border: none;
+    border-bottom: 1px solid #6d6c6c;
+    width: 80%;
+}
+
+.btn__add {
+    padding: 3px;
+    border: none;
+    width: 16.55%;
+    border-radius: 3px;
+    background-color: #bbb95b;
+    color: blanchedalmond;
+}
+
+.btn__add:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.input__checkbox{
+    margin-right: 10px;
+}
+
+.todolist__content ul {
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.todolist__content ul li {
+    padding: 10px 15px;
+}
+
+.todolist__content ul li span {
+    color: rgb(160, 125, 112);
+    font-size: 16px;
+    margin: 0 0 0 10px;
+}
+
+.todolist__content ul li span:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.label-line-through {
+    text-decoration: line-through;
+    color: rgb(190, 93, 58);
+}
